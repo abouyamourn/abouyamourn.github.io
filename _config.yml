@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Adam Bouyamourn"
   avatar           : "profile.png"
-  bio              : "Political methodologist working in causal inference and machine learning"
+  bio              : "PhD student in Political Science at UC Berkeley"
   location         : "Berkeley, CA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=AVGIHWwAAAAJ&hl=en&oi=sra"
@@ -102,13 +102,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
@@ -217,7 +217,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _research
   - scope:
       path: ""
       type: publications
