@@ -11,7 +11,7 @@ author_profile: true
 
 **Under Review**
 
-Apple causal inference project. _Accepted to CML4Impact 2022 workshop, to be submitted to npj Digital Medicine_ (with Lauren Hannah)
+Apple causal inference project. (with Lauren Hannah) _Accepted to CML4Impact 2022 workshop, to be submitted to npj Digital Medicine_ 
 
 Collusive and Adversarial Replication. _Revise and resubmit at Research and Politics._
 
