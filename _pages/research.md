@@ -5,12 +5,36 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+**Publications**
 
-{% include base_path %}
+[Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework.](https://dl.acm.org/doi/abs/10.1145/3396851.3402365) 2020. (with Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, Alex Devonport, and Costas Spanos) In Proceedings of the Eleventh ACM International Conference on Future Energy Systems.
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+**Under Review**
+
+Apple causal inference project. _Accepted to CML4Impact 2022 workshop, to be submitted to npj Digital Medicine_ (with Lauren Hannah)
+
+Collusive and Adversarial Replication. _Revise and resubmit at Research and Politics._
+
+**Working papers**
+
+[Conditional Balance Tests: Increasing Sensitivity and Specificity With Prognostic Covariates](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
+
+Studentized Two-Way Fixed Effects Estimators With Sub-Gaussian Rates.
+
+**Papers in progress** 
+
+Poisoning as Online Disinformation. (with Tak-Huen Chau)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
