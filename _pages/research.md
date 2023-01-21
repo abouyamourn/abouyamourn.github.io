@@ -19,9 +19,9 @@ Collusive and Adversarial Replication. _Revise and resubmit at Research and Poli
 
 [Conditional Balance Tests: Increasing Sensitivity and Specificity With Prognostic Covariates](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
 
-Studentized Two-Way Fixed Effects Estimators With Sub-Gaussian Rates.
-
 **Papers in progress** 
+
+Studentized Two-Way Fixed Effects Estimators With Sub-Gaussian Rates.
 
 Poisoning as Online Disinformation. (with Tak-Huen Chau)
 
