@@ -10,4 +10,4 @@ update
 My CV is [here](files/Adam_Bouyamourn_Curriculum_Vitae-1.pdf).
 
 
-<img src="variance.png"/>
+<img src="./images/variance.png"/>
