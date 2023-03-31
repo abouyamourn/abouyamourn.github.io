@@ -7,4 +7,4 @@ I'm English and Moroccan, and a lifelong chorister.
 My CV is [here](files/Adam_Bouyamourn_Curriculum_Vitae-1.pdf).
 
 
-<img src="[variance.png](https://github.com/abouyamourn/abouyamourn.github.io/blob/master/images/variance.png)"/>
+<img src="https://github.com/abouyamourn/abouyamourn.github.io/blob/master/images/variance.png"/>
