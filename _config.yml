@@ -121,7 +121,6 @@ author:
   youtube          :
   wikipedia        :
 
-
 # Reading Files
 include:
   - .htaccess
@@ -134,6 +133,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
+    - assets
   - CHANGELOG
   - Capfile
   - Gemfile
