@@ -7,7 +7,7 @@ author_profile: true
 
 **Publications**
 
-Why LLMs Hallucinate. 
+Why LLMs Hallucinate. Accepted to EMNLP 2023. 
 
 [Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework.](https://dl.acm.org/doi/abs/10.1145/3396851.3402365) 2020. (with Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, Alex Devonport, and Costas Spanos) In Proceedings of the Eleventh ACM International Conference on Future Energy Systems.
 
