@@ -15,6 +15,8 @@ author_profile: true
 
 [The Power of Prognosis: Informativeness-Weighted Covariate Balance Tests.](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
 
+Collusive and Adversarial Replication. 
+
 Selective Experimentation and Stability Radii: What You Find Depends On Where You Look.
 
 Pre-Analysis Plans and External Validity (with Tak-Huen Chau).
