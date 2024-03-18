@@ -27,7 +27,7 @@ Transformers Are Intensional Learners.
 
 Which Questions Can LLMs Answer?
 
-Is Firm-Level Regulation of AI Different? An Observability Perspective.
+Is Firm-Level Regulation of AI Different? An Informational Perspective.
 
 
 
