@@ -4,6 +4,12 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+**Job Market Paper**
+
+Where To Experiment? A Best Subsets Method for Purposive Site Selection. 
+
+<br>
+
 
 **Publications**
 
@@ -24,8 +30,6 @@ Collusive and Adversarial Replication. _R&R at Research & Politics._
 <br>
 
 **Papers in progress** 
-
-Where To Experiment? A Best Subsets Method for Purposive Site Selection. 
 
 Using Best Subsets for Sparse Heterogeneous Treatment Effect Estimation. 
 
