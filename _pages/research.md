@@ -9,7 +9,8 @@ author_profile: true
 
 [Why LLMs Hallucinate.](https://aclanthology.org/2023.emnlp-main.192/) 2023. EMNLP.  
 
-[Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework.](https://dl.acm.org/doi/abs/10.1145/3396851.3402365) 2020. (with Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, Alex Devonport, and Costas Spanos) ACM e-Energy.
+[Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework.](https://dl.acm.org/doi/abs/10.1145/3396851.3402365) 2020. ACM e-Energy. 
+(with Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, Alex Devonport, and Costas Spanos) 
 
 
 **Under Review**
