@@ -13,11 +13,13 @@ author_profile: true
 (with Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, Alex Devonport, and Costas Spanos) 
 
 
+
 **Under Review**
 
 Collusive and Adversarial Replication. _R&R at Research & Politics._
 
 [The Power of Prognosis: Informativeness-Weighted Covariate Balance Tests.](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
+
 
 
 
