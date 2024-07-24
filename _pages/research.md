@@ -15,9 +15,11 @@ author_profile: true
 
 Collusive and Adversarial Replication. 
 
+[The Power of Prognosis: Informativeness-Weighted Covariate Balance Tests.](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
+
+
 **Papers in progress** 
 
-[The Power of Prognosis: Informativeness-Weighted Covariate Balance Tests.](https://arxiv.org/abs/2205.10478) (with Clara Bicalho and Thad Dunning)
 
 Where To Experiment? A Discrete Optimization Method for Site Selection. 
 
