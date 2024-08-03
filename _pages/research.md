@@ -38,7 +38,10 @@ Pre-Analysis Plans and External Validity (with Tak-Huen Chau).
 
 Is Firm-Level Regulation of AI Different? An Informational Perspective.
 
+Distributionally Robust Optimization and Causal Inference. 
+
 On Double-Dipping. 
+
 
 
 
