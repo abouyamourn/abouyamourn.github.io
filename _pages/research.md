@@ -32,7 +32,7 @@ Collusive and Adversarial Replication. Forthcoming at _Research & Politics_.
 
 **Papers in progress** 
 
-Using Best Subsets for Sparse Heterogeneous Treatment Effect Estimation. 
+Stacked Best Subsets for Sparse Heterogeneous Treatment Effect Estimation. 
 
 Pre-Analysis Plans and External Validity (with Tak-Huen Chau).
 
