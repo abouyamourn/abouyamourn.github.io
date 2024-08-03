@@ -6,7 +6,7 @@ author_profile: true
 ---
 **Job Market Paper**
 
-Where To Experiment? A Best Subsets Method for Purposive Site Selection. 
+Where To Experiment? A Best Subsets Ensemble Method for Purposive Site Selection. 
 
 <br>
 
