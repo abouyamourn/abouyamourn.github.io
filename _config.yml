@@ -11,7 +11,7 @@
 locale                   : "en-US"
 title                    : "Adam Bouyamourn"
 title_separator          : "-"
-name                     : &name "Adam Zaid Ausin Bouyamourn"
+name                     : &name "Adam Zaid Austin Bouyamourn"
 description              : &description "PhD student in Political Science at UC Berkeley"
 url                      : https://abouyamourn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
