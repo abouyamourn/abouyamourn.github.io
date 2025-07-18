@@ -1,13 +1,12 @@
 
+I'm a methodologist interested in causal inference, machine learning, and selective inference. 
 
-I'm a methodologist in the Political Science department at UC Berkeley. 
-I'm interested in causal inference, selective inference, and the politics of machine learning and AI. 
-I'm advised by Thad Dunning, Avi Feller, Peng Ding, and Erin Hartman. 
+In September, I'm joining Princeton as a Postdoc in Politics, Statistics and Machine Learning working with Arthur Spriling. I'm currently a PhD candidate at UC Berkeley. 
 
-I'm English and Moroccan, and a lifelong chorister. 
-update
+I'm advised by Thad Dunning, and my dissertation committee members are Kirk Bansak, Erin Hartman, Avi Feller, and Peng Ding. 
 
-My CV is [here](files/Adam_Bouyamourn_Curriculum_Vitae-1.pdf).
+I'm British and Moroccan, and a lifelong chorister. 
 
+My CV is [here](files/AB_CV.pdf).
 
-<img src="./images/variance.png"/>
+<img src="../images/variance.png"/>
