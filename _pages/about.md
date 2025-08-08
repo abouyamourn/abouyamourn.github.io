@@ -1,7 +1,7 @@
 
 I'm a methodologist interested in causal inference, machine learning, and selective inference. 
 
-In September, I'm joining Princeton as a Postdoc in Politics, Statistics and Machine Learning working with Arthur Spriling. I'm currently a PhD candidate at UC Berkeley. 
+In September, I'm joining Princeton as a Postdoc in Politics, Statistics and Machine Learning working with Arthur Spirling. I'm currently a PhD candidate at UC Berkeley. 
 
 I'm advised by Thad Dunning, and my dissertation committee members are Kirk Bansak, Erin Hartman, Avi Feller, and Peng Ding. 
 
