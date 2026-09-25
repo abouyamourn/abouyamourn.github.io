@@ -7,7 +7,7 @@ Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself bas
 - `filter.js` — the Papers filter buttons
 - `assets/img/` — photo and the Britten "variance" clipping
 - `assets/pdf/AB_CV.pdf` — CV, linked from the header
-- `assets/pdf/papers/` — paper PDFs
+- `assets/pdf/papers/` — paper PDFs (`site_selection.pdf` and `llm_aggregation.pdf` are the writing samples, linked from the page)
 
 ## Preview locally
 

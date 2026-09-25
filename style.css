@@ -277,6 +277,12 @@ section {
   vertical-align: 1px;
 }
 
+.pub-pdf {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+}
+
 .award-badge {
   display: inline-block;
   background: #eee09e;
