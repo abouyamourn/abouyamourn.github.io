@@ -2,9 +2,9 @@
 
 Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself based on jonbarron.info).
 
-- `index.html` — the entire page: bio, CV link, papers
+- `index.html` — the entire page: bio, CV link, research (writing samples and publications)
 - `style.css` — all styling
-- `filter.js` — the Papers filter buttons
+- `filter.js` — the Research filter buttons
 - `assets/img/` — photo and the Britten "variance" clipping
 - `assets/pdf/AB_CV.pdf` — CV, linked from the header
 - `assets/pdf/papers/` — paper PDFs (`site_selection.pdf` and `llm_aggregation.pdf` are the writing samples, linked from the page)
