@@ -22,3 +22,7 @@ The two coloured phrases in the bio carry `data-area-link`; clicking one sets th
 The Britten clipping (one stave of `assets/img/variance.png`, 96×76px) sits under the CV card at its native size.
 
 `404.html` is served by GitHub Pages for any path that does not exist.
+
+## Caching
+
+`index.html` loads `style.css`, `filter.js` and `variance.png` with a `?v=N` suffix. After changing one of those files, raise its N so browsers fetch the new copy instead of a cached one.
