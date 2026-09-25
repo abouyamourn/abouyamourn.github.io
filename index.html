@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Adam Bouyamourn</title>
   <meta name="author" content="Adam Bouyamourn">
-  <meta name="description" content="Adam Bouyamourn — Assistant Professor and Faculty Fellow at NYU's Center for Data Science, working on experimental design, causal inference, and the social implications of AI.">
+  <meta name="description" content="Adam Bouyamourn — Assistant Professor and Faculty Fellow at NYU's Center for Data Science. Research on the social implications of AI systems and new methods for the social sciences.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -17,10 +17,9 @@
       <div class="header-text">
         <p class="name">Adam Bouyamourn</p>
         <div class="bio">
-          <!-- DRAFT: revise freely -->
           <p>I am an Assistant Professor and Faculty Fellow at the <a href="https://cds.nyu.edu/" target="_blank" rel="noopener">Center for Data Science</a> at New York University.</p>
-          <p>I am a methodologist. My research uses optimization to design efficient experiments, and studies the social consequences of AI systems. (See <a href="https://arxiv.org/abs/2511.04658" target="_blank" rel="noopener">experimental site selection under distribution shift</a> and <a href="https://arxiv.org/abs/2502.17816" target="_blank" rel="noopener">algorithmic lending</a>.)</p>
-          <p>Before NYU, I was a Postdoctoral Research Associate in Politics, Statistics and Machine Learning at Princeton University, where I worked with <a href="https://arthurspirling.org/" target="_blank" rel="noopener">Arthur Spirling</a>. I completed my PhD in Political Science at UC Berkeley, advised by <a href="https://www.thaddunning.com/" target="_blank" rel="noopener">Thad Dunning</a>, with Kirk Bansak, Erin Hartman, Avi Feller and Peng Ding on my committee.</p>
+          <p>I study the <a class="bio-tag area-ai" href="#research" data-area-link="AI and Society">social implications of AI systems</a>, and develop <a class="bio-tag area-meth" href="#research" data-area-link="Methodology">new methods</a> for researchers in the social sciences.</p>
+          <p>Before NYU, I was a Postdoctoral Research Associate in Politics, Statistics and Machine Learning at Princeton University, where I worked with <a href="https://arthurspirling.org/" target="_blank" rel="noopener">Arthur Spirling</a>. I completed my PhD in Political Science at UC Berkeley.</p>
           <p>Before graduate school I was a journalist, at <em>The Guardian</em> and <em>The National</em>. I am British and Moroccan, and a lifelong chorister.</p>
         </div>
         <div class="social-icons">
@@ -38,38 +37,21 @@
       </div>
     </header>
 
-    <div class="card-row">
-      <a class="cv-card" href="assets/pdf/AB_CV.pdf" target="_blank" rel="noopener">
-        <i class="fa-regular fa-file-lines"></i>
-        <span class="cv-card-text">
-          <span class="cv-card-title">Curriculum Vitae</span>
-          <span class="cv-card-sub">PDF</span>
-        </span>
-      </a>
-      <figure class="variance">
-        <a href="https://www.youtube.com/watch?v=MMga5xcnY50" target="_blank" rel="noopener" title="Rejoice in the Lamb — King's College, Cambridge">
-          <img src="assets/img/variance.png" alt="Three bars from Britten's Rejoice in the Lamb setting the word 'variance'">
-        </a>
-        <figcaption>Benjamin Britten, <em>Rejoice in the Lamb</em> (1943).</figcaption>
-      </figure>
-    </div>
+    <a class="cv-card" href="assets/pdf/AB_CV.pdf" target="_blank" rel="noopener">
+      <i class="fa-regular fa-file-lines"></i>
+      <span class="cv-card-text">
+        <span class="cv-card-title">CV</span>
+        <span class="cv-card-sub">PDF</span>
+      </span>
+    </a>
 
-    <!-- ================= UPDATES ================= -->
-    <section id="updates">
-      <div class="section-header">
-        <span class="section-title">Updates</span>
-        <div class="section-line"></div>
-      </div>
-      <ul class="updates-list">
-        <!-- DRAFT: dates and wording to be checked -->
-        <li><span class="update-date">Aug 2026</span>Started as Assistant Professor and Faculty Fellow at NYU's Center for Data Science.</li>
-        <li><span class="update-date">2026</span><em>The Power of Prognosis</em> (with Clara Bicalho and Thad Dunning) accepted at <em>Political Analysis</em>.</li>
-        <li><span class="update-date">2026</span><em>Escaping the Subprime Trap in Algorithmic Lending</em> (with Alexander Williams Tolbert) accepted at FORC.</li>
-        <li><span class="update-date">2025</span><em>Experimental Site Selection Under Distribution Shift</em> won the American Statistical Association Best Student Paper Award (Social Statistics, Government Statistics and Survey Research Methods sections).</li>
-        <li><span class="update-date">2025</span>Joined Princeton as a Postdoctoral Research Associate in Politics, Statistics and Machine Learning.</li>
-        <li><span class="update-date">2025</span>Completed my PhD at UC Berkeley.</li>
-      </ul>
-    </section>
+    <!-- Sits in the right margin on wide screens; below the CV card otherwise -->
+    <figure class="variance">
+      <a href="https://www.youtube.com/watch?v=MMga5xcnY50" target="_blank" rel="noopener" title="Rejoice in the Lamb — King's College, Cambridge">
+        <img src="assets/img/variance.png" alt="Three bars from Britten's Rejoice in the Lamb setting the word 'variance'">
+      </a>
+      <figcaption>Benjamin Britten, <em>Rejoice in the Lamb</em> (1943).</figcaption>
+    </figure>
 
     <!-- ================= PAPERS ================= -->
     <section id="research">
@@ -93,157 +75,70 @@
         <button class="filter-btn tag-method" data-filter="machine learning">Machine learning</button>
       </div>
 
-      <div class="year-group">
-        <div class="year-heading">2026</div>
+      <ol class="pub-list">
+        <li class="pub" data-area="Methodology" data-methods="causal inference">
+          <span class="pub-authors">Clara Bicalho, <strong>Adam Bouyamourn</strong>, Thad Dunning.</span>
+          <a class="pub-title" href="https://arxiv.org/abs/2205.10478" target="_blank" rel="noopener">&ldquo;The Power of Prognosis: Improving Covariate Balance Tests with Outcome Information.&rdquo;</a>
+          <span class="pub-venue"><em>Political Analysis</em>, 2026.</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span></span>
+        </li>
 
-        <div class="entry" data-area="Methodology" data-methods="causal inference">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span></div>
-            <h3><a href="https://arxiv.org/abs/2205.10478" target="_blank" rel="noopener">The Power of Prognosis: Improving Covariate Balance Tests with Outcome Information</a></h3>
-            <p class="authors">Clara Bicalho, <strong>Adam Bouyamourn</strong>, Thad Dunning</p>
-            <p class="entry-meta"><span class="venue">Political Analysis</span></p>
-            <p class="entry-links">
-              <a href="https://arxiv.org/abs/2205.10478" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
-              <a href="assets/pdf/papers/prognosis.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
-            </p>
-            <p class="abstract">DRAFT. Weights covariate balance tests by each covariate's prognostic value for the outcome, so that the test has power against the imbalances that bias treatment effect estimates.</p>
-          </div>
-        </div>
+        <li class="pub" data-area="Methodology" data-methods="">
+          <span class="pub-authors">Andr&eacute;s Cruz, <strong>Adam Bouyamourn</strong>, Joseph Ornstein.</span>
+          <a class="pub-title" href="https://www.cambridge.org/core/journals/political-analysis/article/survey-quality-and-acquiescence-bias-a-cautionary-tale/3EB9F87F72297D7689F31C221E7B14BB" target="_blank" rel="noopener">&ldquo;Survey Quality and Acquiescence Bias: A Cautionary Tale.&rdquo;</a>
+          <span class="pub-venue"><em>Political Analysis</em>, 2026.</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span></span>
+        </li>
 
-        <div class="entry" data-area="Methodology" data-methods="">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span></div>
-            <h3><a href="https://www.cambridge.org/core/journals/political-analysis/article/survey-quality-and-acquiescence-bias-a-cautionary-tale/3EB9F87F72297D7689F31C221E7B14BB" target="_blank" rel="noopener">Survey Quality and Acquiescence Bias: A Cautionary Tale</a></h3>
-            <p class="authors">Andr&eacute;s Cruz, <strong>Adam Bouyamourn</strong>, Joseph Ornstein</p>
-            <p class="entry-meta"><span class="venue">Political Analysis</span></p>
-            <p class="entry-links">
-              <a href="https://www.cambridge.org/core/journals/political-analysis/article/survey-quality-and-acquiescence-bias-a-cautionary-tale/3EB9F87F72297D7689F31C221E7B14BB" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a>
-            </p>
-            <p class="abstract">DRAFT. Shows how acquiescence bias in survey responses interacts with survey quality, and what this implies for inference from agree/disagree items.</p>
-          </div>
-        </div>
+        <li class="pub" data-area="AI and Society" data-methods="game theory and mechanism design|machine learning">
+          <span class="pub-authors"><strong>Adam Bouyamourn</strong>, Alexander Williams Tolbert.</span>
+          <a class="pub-title" href="https://arxiv.org/abs/2502.17816" target="_blank" rel="noopener">&ldquo;Escaping the Subprime Trap in Algorithmic Lending.&rdquo;</a>
+          <span class="pub-venue"><em>Foundations of Responsible Computing (FORC)</em>, 2026.</span>
+          <span class="pub-tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">game theory and mechanism design</span><span class="tag tag-method">machine learning</span></span>
+        </li>
 
-        <div class="entry" data-area="AI and Society" data-methods="game theory and mechanism design|machine learning">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">game theory and mechanism design</span><span class="tag tag-method">machine learning</span></div>
-            <h3><a href="https://arxiv.org/abs/2502.17816" target="_blank" rel="noopener">Escaping the Subprime Trap in Algorithmic Lending</a></h3>
-            <p class="authors"><strong>Adam Bouyamourn</strong>, Alexander Williams Tolbert</p>
-            <p class="entry-meta"><span class="venue">Foundations of Responsible Computing (FORC)</span></p>
-            <p class="entry-links">
-              <a href="https://arxiv.org/abs/2502.17816" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
-              <a href="assets/pdf/papers/lending.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
-            </p>
-            <p class="abstract">DRAFT. Models algorithmic lending as a dynamic game and shows how borrowers can be trapped in a subprime equilibrium, and which interventions let them escape it.</p>
-          </div>
-        </div>
+        <li class="pub" data-area="AI and Society" data-methods="machine learning">
+          <span class="pub-authors">Center for AI Safety, Scale AI &amp; Humanity's Last Exam contributors (incl. <strong>Adam Bouyamourn</strong>).</span>
+          <a class="pub-title" href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank" rel="noopener">&ldquo;A Benchmark of Expert-Level Academic Questions to Assess AI Capabilities.&rdquo;</a>
+          <span class="pub-venue"><em>Nature</em>, 2026.</span>
+          <span class="pub-tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></span>
+        </li>
 
-        <div class="entry" data-area="AI and Society" data-methods="machine learning">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></div>
-            <h3><a href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank" rel="noopener">A Benchmark of Expert-Level Academic Questions to Assess AI Capabilities</a></h3>
-            <p class="authors">Center for AI Safety, Scale AI &amp; Humanity's Last Exam contributors (including <strong>Adam Bouyamourn</strong>)</p>
-            <p class="entry-meta"><span class="venue">Nature</span></p>
-            <p class="entry-links">
-              <a href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a>
-            </p>
-            <p class="abstract">DRAFT. Large-scale collaboration building a benchmark of expert-written questions across academic disciplines.</p>
-          </div>
-        </div>
+        <li class="pub" data-area="Methodology" data-methods="">
+          <span class="pub-authors">Balazs Aczel et al. (incl. <strong>Adam Bouyamourn</strong>).</span>
+          <a class="pub-title" href="https://www.nature.com/articles/s41586-025-09844-9" target="_blank" rel="noopener">&ldquo;Investigating the Analytical Robustness of the Social and Behavioral Sciences.&rdquo;</a>
+          <span class="pub-venue"><em>Nature</em>, 2026.</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span></span>
+        </li>
 
-        <div class="entry" data-area="Methodology" data-methods="">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span></div>
-            <h3><a href="https://www.nature.com/articles/s41586-025-09844-9" target="_blank" rel="noopener">Investigating the Analytical Robustness of the Social and Behavioral Sciences</a></h3>
-            <p class="authors">Balazs Aczel et al. (including <strong>Adam Bouyamourn</strong>)</p>
-            <p class="entry-meta"><span class="venue">Nature</span></p>
-            <p class="entry-links">
-              <a href="https://www.nature.com/articles/s41586-025-09844-9" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a>
-            </p>
-            <p class="abstract">DRAFT. Many-analyst study of how far conclusions in the social and behavioral sciences depend on analytical choices.</p>
-          </div>
-        </div>
-      </div>
+        <li class="pub" data-area="Methodology" data-methods="causal inference|optimization">
+          <span class="pub-authors"><strong>Adam Bouyamourn</strong>.</span>
+          <a class="pub-title" href="https://arxiv.org/abs/2511.04658" target="_blank" rel="noopener">&ldquo;Experimental Site Selection Under Distribution Shift via Optimal Transport and Wasserstein DRO.&rdquo;</a>
+          <span class="pub-venue"><em>Working paper</em>, 2025.</span> <span class="award-badge"><i class="fa-solid fa-award"></i>ASA Best Student Paper Award</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">optimization</span></span>
+        </li>
 
-      <div class="year-group">
-        <div class="year-heading">2025</div>
+        <li class="pub" data-area="Methodology" data-methods="game theory and mechanism design">
+          <span class="pub-authors"><strong>Adam Bouyamourn</strong>.</span>
+          <a class="pub-title" href="https://doi.org/10.1177/20531680241282828" target="_blank" rel="noopener">&ldquo;Collusive and Adversarial Replication.&rdquo;</a>
+          <span class="pub-venue"><em>Research &amp; Politics</em>, 2025.</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">game theory and mechanism design</span></span>
+        </li>
 
-        <div class="entry" data-area="Methodology" data-methods="causal inference|optimization">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">optimization</span></div>
-            <h3><a href="https://arxiv.org/abs/2511.04658" target="_blank" rel="noopener">Experimental Site Selection Under Distribution Shift via Optimal Transport and Wasserstein DRO</a></h3>
-            <p class="authors"><strong>Adam Bouyamourn</strong></p>
-            <p class="entry-meta"><span class="venue">Working paper</span> <span class="award-badge"><i class="fa-solid fa-award"></i>ASA Best Student Paper Award</span></p>
-            <p class="entry-links">
-              <a href="https://arxiv.org/abs/2511.04658" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
-              <a href="assets/pdf/papers/site_selection.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
-            </p>
-            <p class="abstract">DRAFT. Chooses experimental sites to minimize the worst-case extrapolation error to a target population, using optimal transport distances and Wasserstein distributionally robust optimization.</p>
-          </div>
-        </div>
+        <li class="pub" data-area="AI and Society" data-methods="machine learning">
+          <span class="pub-authors"><strong>Adam Bouyamourn</strong>.</span>
+          <a class="pub-title" href="https://aclanthology.org/2023.emnlp-main.192/" target="_blank" rel="noopener">&ldquo;Why LLMs Hallucinate, and How to Get (Evidential) Closure: Perceptual, Intensional and Extensional Learning for Faithful Natural Language Generation.&rdquo;</a>
+          <span class="pub-venue"><em>EMNLP</em>, 2023.</span>
+          <span class="pub-tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></span>
+        </li>
 
-        <div class="entry" data-area="Methodology" data-methods="game theory and mechanism design">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">game theory and mechanism design</span></div>
-            <h3><a href="https://doi.org/10.1177/20531680241282828" target="_blank" rel="noopener">Collusive and Adversarial Replication</a></h3>
-            <p class="authors"><strong>Adam Bouyamourn</strong></p>
-            <p class="entry-meta"><span class="venue">Research &amp; Politics</span></p>
-            <p class="entry-links">
-              <a href="https://doi.org/10.1177/20531680241282828" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
-              <a href="assets/pdf/papers/replication.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
-            </p>
-            <p class="abstract">DRAFT. Models replication as a game between original authors and replicators, and asks when replication incentives produce informative rather than collusive or adversarial outcomes.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="year-group">
-        <div class="year-heading">2023</div>
-
-        <div class="entry" data-area="AI and Society" data-methods="machine learning">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></div>
-            <h3><a href="https://aclanthology.org/2023.emnlp-main.192/" target="_blank" rel="noopener">Why LLMs Hallucinate, and How to Get (Evidential) Closure: Perceptual, Intensional and Extensional Learning for Faithful Natural Language Generation</a></h3>
-            <p class="authors"><strong>Adam Bouyamourn</strong></p>
-            <p class="entry-meta"><span class="venue">EMNLP</span></p>
-            <p class="entry-links">
-              <a href="https://aclanthology.org/2023.emnlp-main.192/" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>acl anthology</a>
-            </p>
-            <p class="abstract">DRAFT. Argues that language models hallucinate because their outputs are not constrained to be supported by evidence, and proposes learning procedures that enforce evidential closure.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="year-group">
-        <div class="year-heading">2020</div>
-
-        <div class="entry" data-area="Methodology" data-methods="causal inference|machine learning">
-          <div class="entry-body">
-            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">machine learning</span></div>
-            <h3><a href="https://dl.acm.org/doi/abs/10.1145/3396851.3402365" target="_blank" rel="noopener">Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework</a></h3>
-            <p class="authors">Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, <strong>Adam Bouyamourn</strong>, Alex Devonport, Costas Spanos</p>
-            <p class="entry-meta"><span class="venue">ACM e-Energy</span></p>
-            <p class="entry-links">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3396851.3402365" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a>
-            </p>
-            <p class="abstract">DRAFT. Designs a prospective experiment to test reinforcement-learning control of energy demand response in an office social-game setting.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= IN PROGRESS ================= -->
-    <section id="in-progress">
-      <div class="section-header">
-        <span class="section-title">Papers in progress</span>
-        <div class="section-line"></div>
-      </div>
-      <ul class="plain-list">
-        <li>AI-Assisted Repression (with Eddie Yang)</li>
-        <li>Aggregating LLM Predictions without Ground Truth (with Arthur Spirling)</li>
-        <li>Judge vs. Jury: When Should You Prefer LLMs to Human Annotators? (with Arthur Spirling)</li>
-        <li>Prover-Verifier Games and Technological Discovery</li>
-        <li>Explore-Exploit: The Trade-off Between Internal and External Validity (with Tak-Huen Chau)</li>
-      </ul>
+        <li class="pub" data-area="Methodology" data-methods="causal inference|machine learning">
+          <span class="pub-authors">Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, <strong>Adam Bouyamourn</strong>, Alex Devonport, Costas Spanos.</span>
+          <a class="pub-title" href="https://dl.acm.org/doi/abs/10.1145/3396851.3402365" target="_blank" rel="noopener">&ldquo;Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework.&rdquo;</a>
+          <span class="pub-venue"><em>ACM e-Energy</em>, 2020.</span>
+          <span class="pub-tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">machine learning</span></span>
+        </li>
+      </ol>
     </section>
 
     <footer class="footer">

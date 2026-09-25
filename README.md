@@ -2,7 +2,7 @@
 
 Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself based on jonbarron.info).
 
-- `index.html` — the entire page: bio, updates, papers, papers in progress
+- `index.html` — the entire page: bio, CV link, papers
 - `style.css` — all styling
 - `filter.js` — the Papers filter buttons
 - `assets/img/` — photo and the Britten "variance" clipping
@@ -15,8 +15,10 @@ Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself bas
 
 ## Editing
 
-Each paper is an `.entry` block inside a `.year-group`. Each entry has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.tags` should mirror these attributes. Icons: doi → `fa-solid fa-link`, pdf → `fa-regular fa-file-lines`, arxiv → `fa-solid fa-file-arrow-up`, code → `fa-brands fa-github`.
+Each paper is an `<li class="pub">` in `.pub-list`, newest first, written as: authors. "Title." *Venue*, year. tags. Each item has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.pub-tags` should mirror these attributes. The title links to the paper.
 
-Updates are `<li>` items in `#updates`; papers in progress are `<li>` items in `#in-progress`.
+The two coloured phrases in the bio carry `data-area-link`; clicking one sets the Area filter.
+
+The Britten clipping sits in the right margin when the window is at least 1180px wide, and below the CV card otherwise.
 
 `404.html` is served by GitHub Pages for any path that does not exist.
