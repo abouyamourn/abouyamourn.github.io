@@ -20,6 +20,10 @@
 
   function apply() {
     pubs.forEach(function (pub) { pub.hidden = !matches(pub); });
+    // Hide a group heading when none of its papers match.
+    Array.prototype.forEach.call(document.querySelectorAll('#research .pub-group'), function (group) {
+      group.hidden = !group.querySelector('.pub:not([hidden])');
+    });
   }
 
   function select(bar, btn) {

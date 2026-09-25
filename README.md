@@ -15,10 +15,10 @@ Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself bas
 
 ## Editing
 
-Each paper is an `<li class="pub">` in `.pub-list`, newest first, written as: authors. "Title." *Venue*, year. tags. Each item has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.pub-tags` should mirror these attributes. The title links to the paper.
+Papers are in two `.pub-group` blocks, "Writing samples" then "Other papers". Each paper is an `<li class="pub">` in that group's `.pub-list`, newest first, written as: authors. "Title." *Venue*, year. tags. Each item has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.pub-tags` should mirror these attributes. The title links to the paper.
 
 The two coloured phrases in the bio carry `data-area-link`; clicking one sets the Area filter.
 
-The Britten clipping sits in the right margin when the window is at least 1180px wide, and below the CV card otherwise.
+The Britten clipping (one stave of `assets/img/variance.png`, 96×76px) sits under the CV card at its native size.
 
 `404.html` is served by GitHub Pages for any path that does not exist.

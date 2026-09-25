@@ -209,6 +209,27 @@ section {
 /* Publication list                                                        */
 /* ---------------------------------------------------------------------- */
 
+.filter-bar + .pub-group {
+  margin-top: 24px;
+}
+
+.pub-group + .pub-group {
+  margin-top: 28px;
+}
+
+.pub-group[hidden] {
+  display: none;
+}
+
+.pub-group-title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
 .pub-list {
   list-style: none;
 }
@@ -366,7 +387,6 @@ section {
 .filter-btn.tag-method.active { color: var(--method); border-color: var(--method); background: var(--method-bg); }
 
 /* CV card */
-.container { position: relative; }
 .cv-card {
   display: flex;
   align-items: center;
@@ -385,22 +405,11 @@ section {
 .cv-card-title { font-size: 15px; font-weight: 500; }
 .cv-card-sub { font-size: 12px; color: var(--text-muted); }
 
-/* Britten clipping: below the CV card by default, in the right margin on wide screens */
-.variance { margin: -24px 0 44px; }
+/* Britten clipping (one stave), under the CV card, shown at native size */
+.variance { margin: -28px 0 40px; }
 .variance a { display: inline-block; }
-.variance img { height: 150px; width: auto; display: block; }
-.variance figcaption { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
-
-@media (min-width: 1180px) {
-  .variance {
-    position: absolute;
-    top: 40px;
-    left: calc(100% + 8px);
-    width: 150px;
-    margin: 0;
-  }
-  .variance img { height: 272px; } /* native resolution */
-}
+.variance img { width: 96px; height: auto; display: block; }
+.variance figcaption { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
 
 /* Bio phrases that double as Area filters */
 .bio-tag {
