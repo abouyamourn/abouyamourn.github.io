@@ -61,7 +61,7 @@ a:hover {
 }
 
 .header-photo {
-  flex: 0 0 37%;
+  flex: 0 0 calc(37% - 32px); /* leaves room for the 32px gap */
 }
 
 .header-photo img {
@@ -150,24 +150,8 @@ section {
 }
 
 /* ---------------------------------------------------------------------- */
-/* Year groups & category tags                                             */
+/* Category tags                                                           */
 /* ---------------------------------------------------------------------- */
-
-.year-group {
-  margin-bottom: 8px;
-}
-
-.year-heading {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-muted);
-  letter-spacing: 0.04em;
-  margin: 32px 0 12px;
-}
-
-.year-group:first-child .year-heading {
-  margin-top: 0;
-}
 
 .tag {
   display: inline-block;
@@ -222,88 +206,81 @@ section {
 }
 
 /* ---------------------------------------------------------------------- */
-/* Research entry cards                                                    */
+/* Publication list                                                        */
 /* ---------------------------------------------------------------------- */
 
-.entry {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--border);
+.filter-bar + .pub-group {
+  margin-top: 24px;
 }
 
-.entry[hidden],
-.year-group[hidden] {
+.pub-group + .pub-group {
+  margin-top: 28px;
+}
+
+.pub-group[hidden] {
   display: none;
 }
 
-.entry:first-child {
-  border-top: 1px solid var(--border);
-}
-
-.entry-body {
-  flex: 1;
-  min-width: 0;
-}
-
-.entry h3 {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.3;
-  margin-bottom: 6px;
-}
-
-.entry h3 a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.authors {
-  font-size: 14px;
-  line-height: 1.4;
-  color: var(--text-secondary);
-  margin-bottom: 6px;
-}
-
-.authors strong {
+.pub-group-title {
+  font-size: 12px;
   font-weight: 600;
-  color: var(--text);
-}
-
-.entry-meta {
-  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 8px;
 }
 
-.entry-meta .venue {
+.pub-list {
+  list-style: none;
+}
+
+.pub {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.pub[hidden] {
+  display: none;
+}
+
+.pub-authors strong {
   font-weight: 600;
   color: var(--text);
 }
 
-.entry-meta .year {
-  color: var(--text-muted);
+.pub-title {
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
 }
 
-.entry-links a {
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 500;
+.pub-title:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.pub-venue em {
   color: var(--text);
 }
 
-.entry-links i {
-  margin-right: 3px;
-  color: var(--text-muted);
+.pub-tags .tag {
+  font-size: 10px;
+  padding: 0 6px;
+  margin: 0 0 0 4px;
+  vertical-align: 1px;
 }
 
-.abstract {
-  font-size: 12px;
-  font-style: italic;
-  line-height: 1.4;
-  color: var(--text-secondary);
-  margin-top: 8px;
+.pub-pdf {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
 }
 
 .award-badge {
@@ -312,24 +289,14 @@ section {
   color: #4f5357;
   font-size: 10px;
   font-weight: 500;
-  padding: 3px 7px;
-  margin-left: 6px;
+  padding: 0 6px;
+  margin-left: 2px;
   border-radius: 8px;
+  vertical-align: 1px;
 }
 
 .award-badge i {
   margin-right: 3px;
-}
-
-.footnote {
-  font-size: 12px;
-  color: var(--text-muted);
-  margin-top: 16px;
-}
-
-/* Entries without a thumbnail span full width */
-.entry.no-thumb .entry-body {
-  flex: 1 1 100%;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -370,10 +337,6 @@ section {
 
   .header-photo {
     max-width: 140px;
-  }
-
-  .entry {
-    flex-direction: column;
   }
 }
 
@@ -429,19 +392,14 @@ section {
 .filter-btn.area-ai.active    { color: var(--ai);     border-color: var(--ai);     background: var(--ai-bg); }
 .filter-btn.tag-method.active { color: var(--method); border-color: var(--method); background: var(--method-bg); }
 
-/* CV card + music clip row, aligned to the header's 63/37 columns */
-.card-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 32px;
-  margin-bottom: 44px;
-}
+/* CV card */
 .cv-card {
-  flex: 0 0 63%;
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 16px 18px;
+  width: 63%;
+  padding: 12px 18px;
+  margin-bottom: 44px;
   border: 1px solid var(--border);
   border-radius: 8px;
   text-decoration: none;
@@ -453,29 +411,22 @@ section {
 .cv-card-title { font-size: 15px; font-weight: 500; }
 .cv-card-sub { font-size: 12px; color: var(--text-muted); }
 
-.variance { flex: 0 0 37%; margin: 0; }
+/* Britten clipping (one stave), under the CV card, shown at native size */
+.variance { margin: -28px 0 40px; }
 .variance a { display: inline-block; }
-.variance img { height: 180px; width: auto; display: block; }
-.variance figcaption { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+.variance img { width: 96px; height: auto; display: block; }
+.variance figcaption { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
 
-/* Updates and plain lists */
-.updates-list, .plain-list { list-style: none; }
-.updates-list li, .plain-list li {
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--text-secondary);
-  padding: 6px 0;
-  border-bottom: 1px solid var(--border);
+/* Bio phrases that double as Area filters */
+.bio-tag {
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0 2px;
+  border-radius: 3px;
 }
-.updates-list li:first-child, .plain-list li:first-child { border-top: 1px solid var(--border); }
-.update-date {
-  display: inline-block;
-  min-width: 84px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-muted);
-  letter-spacing: 0.04em;
-}
+.bio-tag:hover { opacity: 1; text-decoration: underline; }
+.bio-tag.area-meth { color: var(--meth); background: var(--meth-bg); }
+.bio-tag.area-ai   { color: var(--ai);   background: var(--ai-bg); }
 
 /* 404 */
 .lost {
@@ -491,11 +442,8 @@ section {
 .lost p { font-size: 13px; color: var(--text-muted); }
 
 @media (max-width: 700px) {
-  .card-row { flex-direction: column; gap: 20px; }
-  .cv-card, .variance { flex: 1 1 auto; width: 100%; }
-  .variance img { height: 140px; }
+  .cv-card { width: 100%; }
 }
 @media (max-width: 500px) {
-  .update-date { display: block; min-width: 0; }
   .filter-label { min-width: 100%; }
 }
