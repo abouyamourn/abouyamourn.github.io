@@ -15,7 +15,7 @@ Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself bas
 
 ## Editing
 
-Papers are in two `.pub-group` blocks, "Writing samples" then "Other papers". Each paper is an `<li class="pub">` in that group's `.pub-list`, newest first, written as: authors. "Title." *Venue*, year. tags. Each item has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.pub-tags` should mirror these attributes. The title links to the paper.
+Papers are in two `.pub-group` blocks, "Writing samples" then "Publications". Each paper is an `<li class="pub">` in that group's `.pub-list`, newest first, written as: authors. "Title." *Venue*, year. tags. Each item has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.pub-tags` should mirror these attributes. The title links to the paper.
 
 The two coloured phrases in the bio carry `data-area-link`; clicking one sets the Area filter.
 
