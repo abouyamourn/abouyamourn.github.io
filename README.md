@@ -25,4 +25,4 @@ The Britten clipping (one stave of `assets/img/variance.png`, 96×76px) sits und
 
 ## Caching
 
-`index.html` loads `style.css`, `filter.js` and `variance.png` with a `?v=N` suffix. After changing one of those files, raise its N so browsers fetch the new copy instead of a cached one.
+`index.html` loads `style.css`, `filter.js`, `variance.png` and the CV with a `?v=N` suffix. After changing one of those files, raise its N so browsers fetch the new copy instead of a cached one.
