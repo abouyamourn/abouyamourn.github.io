@@ -38,10 +38,21 @@
       </div>
     </header>
 
-    <figure class="variance">
-      <img src="assets/img/variance.png" alt="Three bars of music from Britten's Rejoice in the Lamb, setting the word 'variance'">
-      <figcaption>Benjamin Britten, <em>Rejoice in the Lamb</em> (1943).</figcaption>
-    </figure>
+    <div class="card-row">
+      <a class="cv-card" href="assets/pdf/AB_CV.pdf" target="_blank" rel="noopener">
+        <i class="fa-regular fa-file-lines"></i>
+        <span class="cv-card-text">
+          <span class="cv-card-title">Curriculum Vitae</span>
+          <span class="cv-card-sub">PDF</span>
+        </span>
+      </a>
+      <figure class="variance">
+        <a href="https://www.youtube.com/watch?v=MMga5xcnY50" target="_blank" rel="noopener" title="Rejoice in the Lamb — King's College, Cambridge">
+          <img src="assets/img/variance.png" alt="Three bars from Britten's Rejoice in the Lamb setting the word 'variance'">
+        </a>
+        <figcaption>Benjamin Britten, <em>Rejoice in the Lamb</em> (1943).</figcaption>
+      </figure>
+    </div>
 
     <!-- ================= UPDATES ================= -->
     <section id="updates">
@@ -67,18 +78,27 @@
         <div class="section-line"></div>
       </div>
 
-      <div class="filter-bar" role="group" aria-label="Filter by category">
+      <div class="filter-bar" role="group" aria-label="Filter by area" data-dim="area">
+        <span class="filter-label">Area</span>
         <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="Methodology">Methodology</button>
-        <button class="filter-btn" data-filter="AI and Society">AI and Society</button>
+        <button class="filter-btn area-meth" data-filter="Methodology">Methodology</button>
+        <button class="filter-btn area-ai" data-filter="AI and Society">AI and Society</button>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filter by method" data-dim="methods">
+        <span class="filter-label">Method</span>
+        <button class="filter-btn active" data-filter="all">Any</button>
+        <button class="filter-btn tag-method" data-filter="game theory and mechanism design">Game theory &amp; mechanism design</button>
+        <button class="filter-btn tag-method" data-filter="causal inference">Causal inference</button>
+        <button class="filter-btn tag-method" data-filter="optimization">Optimization</button>
+        <button class="filter-btn tag-method" data-filter="machine learning">Machine learning</button>
       </div>
 
       <div class="year-group">
         <div class="year-heading">2026</div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="causal inference">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span></div>
             <h3><a href="https://arxiv.org/abs/2205.10478" target="_blank" rel="noopener">The Power of Prognosis: Improving Covariate Balance Tests with Outcome Information</a></h3>
             <p class="authors">Clara Bicalho, <strong>Adam Bouyamourn</strong>, Thad Dunning</p>
             <p class="entry-meta"><span class="venue">Political Analysis</span></p>
@@ -90,9 +110,9 @@
           </div>
         </div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span></div>
             <h3><a href="https://www.cambridge.org/core/journals/political-analysis/article/survey-quality-and-acquiescence-bias-a-cautionary-tale/3EB9F87F72297D7689F31C221E7B14BB" target="_blank" rel="noopener">Survey Quality and Acquiescence Bias: A Cautionary Tale</a></h3>
             <p class="authors">Andr&eacute;s Cruz, <strong>Adam Bouyamourn</strong>, Joseph Ornstein</p>
             <p class="entry-meta"><span class="venue">Political Analysis</span></p>
@@ -103,9 +123,9 @@
           </div>
         </div>
 
-        <div class="entry" data-tag="AI and Society">
+        <div class="entry" data-area="AI and Society" data-methods="game theory and mechanism design|machine learning">
           <div class="entry-body">
-            <span class="tag">AI and Society</span>
+            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">game theory and mechanism design</span><span class="tag tag-method">machine learning</span></div>
             <h3><a href="https://arxiv.org/abs/2502.17816" target="_blank" rel="noopener">Escaping the Subprime Trap in Algorithmic Lending</a></h3>
             <p class="authors"><strong>Adam Bouyamourn</strong>, Alexander Williams Tolbert</p>
             <p class="entry-meta"><span class="venue">Foundations of Responsible Computing (FORC)</span></p>
@@ -117,9 +137,9 @@
           </div>
         </div>
 
-        <div class="entry" data-tag="AI and Society">
+        <div class="entry" data-area="AI and Society" data-methods="machine learning">
           <div class="entry-body">
-            <span class="tag">AI and Society</span>
+            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></div>
             <h3><a href="https://www.nature.com/articles/s41586-025-09962-4" target="_blank" rel="noopener">A Benchmark of Expert-Level Academic Questions to Assess AI Capabilities</a></h3>
             <p class="authors">Center for AI Safety, Scale AI &amp; Humanity's Last Exam contributors (including <strong>Adam Bouyamourn</strong>)</p>
             <p class="entry-meta"><span class="venue">Nature</span></p>
@@ -130,9 +150,9 @@
           </div>
         </div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span></div>
             <h3><a href="https://www.nature.com/articles/s41586-025-09844-9" target="_blank" rel="noopener">Investigating the Analytical Robustness of the Social and Behavioral Sciences</a></h3>
             <p class="authors">Balazs Aczel et al. (including <strong>Adam Bouyamourn</strong>)</p>
             <p class="entry-meta"><span class="venue">Nature</span></p>
@@ -147,9 +167,9 @@
       <div class="year-group">
         <div class="year-heading">2025</div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="causal inference|optimization">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">optimization</span></div>
             <h3><a href="https://arxiv.org/abs/2511.04658" target="_blank" rel="noopener">Experimental Site Selection Under Distribution Shift via Optimal Transport and Wasserstein DRO</a></h3>
             <p class="authors"><strong>Adam Bouyamourn</strong></p>
             <p class="entry-meta"><span class="venue">Working paper</span> <span class="award-badge"><i class="fa-solid fa-award"></i>ASA Best Student Paper Award</span></p>
@@ -161,9 +181,9 @@
           </div>
         </div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="game theory and mechanism design">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">game theory and mechanism design</span></div>
             <h3><a href="https://doi.org/10.1177/20531680241282828" target="_blank" rel="noopener">Collusive and Adversarial Replication</a></h3>
             <p class="authors"><strong>Adam Bouyamourn</strong></p>
             <p class="entry-meta"><span class="venue">Research &amp; Politics</span></p>
@@ -179,9 +199,9 @@
       <div class="year-group">
         <div class="year-heading">2023</div>
 
-        <div class="entry" data-tag="AI and Society">
+        <div class="entry" data-area="AI and Society" data-methods="machine learning">
           <div class="entry-body">
-            <span class="tag">AI and Society</span>
+            <div class="tags"><span class="tag area-ai">AI and Society</span><span class="tag tag-method">machine learning</span></div>
             <h3><a href="https://aclanthology.org/2023.emnlp-main.192/" target="_blank" rel="noopener">Why LLMs Hallucinate, and How to Get (Evidential) Closure: Perceptual, Intensional and Extensional Learning for Faithful Natural Language Generation</a></h3>
             <p class="authors"><strong>Adam Bouyamourn</strong></p>
             <p class="entry-meta"><span class="venue">EMNLP</span></p>
@@ -196,9 +216,9 @@
       <div class="year-group">
         <div class="year-heading">2020</div>
 
-        <div class="entry" data-tag="Methodology">
+        <div class="entry" data-area="Methodology" data-methods="causal inference|machine learning">
           <div class="entry-body">
-            <span class="tag">Methodology</span>
+            <div class="tags"><span class="tag area-meth">Methodology</span><span class="tag tag-method">causal inference</span><span class="tag tag-method">machine learning</span></div>
             <h3><a href="https://dl.acm.org/doi/abs/10.1145/3396851.3402365" target="_blank" rel="noopener">Prospective Experiment for Reinforcement Learning on Demand Response in a Social Game Framework</a></h3>
             <p class="authors">Lucas Spangher, Akash Gokul, Manan Khattar, Joseph Palakapilly, Akaash Tawade, <strong>Adam Bouyamourn</strong>, Alex Devonport, Costas Spanos</p>
             <p class="entry-meta"><span class="venue">ACM e-Energy</span></p>

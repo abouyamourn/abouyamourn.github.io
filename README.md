@@ -15,6 +15,8 @@ Plain HTML/CSS/JS, no build step. Design based on wangmagg.github.io (itself bas
 
 ## Editing
 
-Each paper is an `.entry` block inside a `.year-group`. `data-tag` on the entry must match one of the `data-filter` values on the filter buttons (`Methodology`, `AI and Society`). Icons: doi → `fa-solid fa-link`, pdf → `fa-regular fa-file-lines`, arxiv → `fa-solid fa-file-arrow-up`, code → `fa-brands fa-github`.
+Each paper is an `.entry` block inside a `.year-group`. Each entry has `data-area` (`Methodology` or `AI and Society`) and `data-methods` (zero or more of `game theory and mechanism design`, `causal inference`, `optimization`, `machine learning`, separated by `|`). The two filter rows combine with AND. The chips inside `.tags` should mirror these attributes. Icons: doi → `fa-solid fa-link`, pdf → `fa-regular fa-file-lines`, arxiv → `fa-solid fa-file-arrow-up`, code → `fa-brands fa-github`.
 
 Updates are `<li>` items in `#updates`; papers in progress are `<li>` items in `#in-progress`.
+
+`404.html` is served by GitHub Pages for any path that does not exist.
